@@ -25,9 +25,9 @@ pipeline{
 
                    scp -o strictHostkeyChecking*no target/myweb.war ec2-user@18.224.68.95:/home/e2-user/apache-tomcat-9.0.31/rajesh123/
                     
-                   ssh ubuntu@18.224.68.95 /home/ec2-user/apache-tomcat-18.224.68.95/bin/shutdown.sh
+                   ssh ubuntu@18.224.68.95 /home/ubuntu/apache-tomcat-9.0.31/bin/shutdown.sh
 
-                   ssh ubuntu@18.224.68.95 /home/ec2-user/apache-tomcat-18.224.68.95/bin/startup.sh
+                   ssh ubuntu@18.224.68.95 /home/ubuntu/apache-tomcat-9.0.31/bin/startup.sh
 
 
                   ***
